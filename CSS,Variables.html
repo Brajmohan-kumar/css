@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Vaeiables</title>
+    <style>
+
+        :root {
+            --color: blue;
+            --seccolor: rgb(174, 174, 222),
+        }
+
+
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      div:first-child {
+        background-color: rgb(233, 83, 83);
+      }
+      ul {
+        display: flex;
+      }
+      ul li {
+        --color: rgb(243, 87, 8);
+        list-style: none;
+        padding: 20px;
+        margin: 10px;
+      }
+      .containar {
+        background-color: rgb(247, 146, 146);
+      }
+
+      .Home {
+        background-color: brown;
+      }
+
+      .About {
+        background-color: aqua;
+      }
+
+      .Contact {
+        background-color: darkgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li class="Home">Home</li>
+        <li class="About">About</li>
+        <li class="Contact">Contact</li>
+      </ul>
+    </div>
+    <div class="containar">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+      praesentium recusandae earum, accusamus labore saepe dicta nemo sapiente
+      ducimus repudiandae qui placeat ab modi omnis pariatur magni dolorem
+      commodi odio fuga ipsum error ipsam aliquam? Sed non in consequuntur nulla
+      dicta ab fugit mollitia magni!
+    </div>
+  </body>
+</html>
